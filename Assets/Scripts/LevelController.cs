@@ -17,6 +17,7 @@ public class LevelController : MonoBehaviour
 
     void HandleOn()
     {
+        SoundManager.instance.PlayOneShootAudio(SoundManager.instance.uiClickAudioSource);
         btnOff.gameObject.SetActive(true);
         btnOn.gameObject.SetActive(false);
         imgBG.gameObject.SetActive(false);

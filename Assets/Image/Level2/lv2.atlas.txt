@@ -1,0 +1,69 @@
+
+lv2.png
+size: 904,1360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 3
+  rotate: false
+  xy: 690, 1137
+  size: 61, 27
+  orig: 66, 29
+  offset: 4, 1
+  index: -1
+Layer 4
+  rotate: false
+  xy: 690, 1276
+  size: 107, 82
+  orig: 107, 82
+  offset: 0, 0
+  index: -1
+binh
+  rotate: false
+  xy: 2, 838
+  size: 686, 520
+  orig: 740, 575
+  offset: 40, 32
+  index: -1
+ca copy
+  rotate: true
+  xy: 804, 770
+  size: 214, 98
+  orig: 214, 100
+  offset: 0, 2
+  index: -1
+nuoc
+  rotate: true
+  xy: 2, 2
+  size: 96, 822
+  orig: 96, 822
+  offset: 0, 0
+  index: -1
+nuoc2
+  rotate: false
+  xy: 2, 461
+  size: 816, 375
+  orig: 818, 377
+  offset: 1, 1
+  index: -1
+nuoc3
+  rotate: false
+  xy: 2, 100
+  size: 823, 359
+  orig: 825, 361
+  offset: 1, 1
+  index: -1
+o1
+  rotate: true
+  xy: 690, 838
+  size: 235, 112
+  orig: 237, 114
+  offset: 1, 1
+  index: -1
+o13
+  rotate: true
+  xy: 690, 1075
+  size: 214, 192
+  orig: 214, 192
+  offset: 0, 0
+  index: -1

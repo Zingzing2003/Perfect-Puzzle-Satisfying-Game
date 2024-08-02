@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lv4_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 804
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b1d5c0ced144047ac5c18a127dc480
+      internalID: -1141254767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_1
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 0
+        width: 502
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545a7f86f49615f4f9ca00e59e2926a7
+      internalID: -370704068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 402
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190898faf3cb3c845af4a071016f5dd6
+      internalID: -1286853437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_5
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 276
+        width: 140
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5680daa637c41034f8bd36c0f5dfcc0a
+      internalID: -1545139650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_7
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 419
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0360362f184f946972e52c06323d07
+      internalID: -977252795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_14
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 324
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9804d8860c3244141a33451ead708493
+      internalID: 1694969610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_16
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 79
+        width: 176
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0401ab979f01c4d8c0a17bb9e6ee07
+      internalID: -726266897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_18
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 0
+        width: 192
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f317be379a11243a76888a52b1d2c2
+      internalID: 811883692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_8
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1
+        width: 166
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fb63ce6505e1548977c71b2d3b386a
+      internalID: -1140196813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv4_1_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 113
+        width: 226
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674da53734cc4d04d9fee4ccacbf8881
+      internalID: -2011098242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +342,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lv4_1_0: -1141254767
+      lv4_1_1: -370704068
+      lv4_1_10: 1771013429
+      lv4_1_11: -812231470
+      lv4_1_12: -878787417
+      lv4_1_13: -238026365
+      lv4_1_14: 1694969610
+      lv4_1_15: 317608154
+      lv4_1_16: -726266897
+      lv4_1_17: -1915203447
+      lv4_1_18: 811883692
+      lv4_1_19: 997692173
+      lv4_1_2: -2011098242
+      lv4_1_20: -721308076
+      lv4_1_21: -1453335734
+      lv4_1_3: -1286853437
+      lv4_1_4: 1083035951
+      lv4_1_5: -1545139650
+      lv4_1_6: 745050302
+      lv4_1_7: -977252795
+      lv4_1_8: -1140196813
+      lv4_1_9: -1841141242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

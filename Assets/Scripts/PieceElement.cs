@@ -1,11 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using Image = UnityEngine.UI.Image;
 
 public class PieceElement : MonoBehaviour, IPointerDownHandler
 {
@@ -26,24 +24,36 @@ public class PieceElement : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData)
     {
        // float q = 90;
+      // Debug.Log("check");
+       SoundManager.instance.PlayOneShootAudio(SoundManager.instance.clickAudioSource);
         this.transform.Rotate(0f, 0f, 90);
         checkRotate();
     }
 
     void checkRotate()
     {
-        if (this.transform.rotation.z % 360 == 0 && isDone.Equals(false))
+        Vector3 angel = this.transform.rotation.eulerAngles;
+
+        if (angel.z % 360 == 0 && isDone.Equals(false))
         {
             //Debug.Log("Dung r");
             isDone = true;
-            this.GetComponent<Image>().raycastTarget = false;
+            //this.GetComponent<Image>().raycastTarget = false;
             Level2Controller.instance.max--;
 
             if (Level2Controller.instance.max == 0)
             {
-                GameManager.instance.WinGame();
+                Level2Controller.instance.WinGame();
             }
             
+        }
+        else
+        {
+            if (isDone)
+            {
+                isDone = false;
+                Level2Controller.instance.max++;
+            }
         }
     }
 }
